@@ -1,17 +1,17 @@
 'use strict';
 
-describe('Controller: AboutBbbeeCtrl', function () {
+describe('Controller: AboutMainCtrl', function () {
 
   // load the controller's module
   beforeEach(module('invirohubWebApp'));
 
-  var AboutBbbeeCtrl,
+  var AboutMainCtrl,
     scope;
 
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
-    AboutBbbeeCtrl = $controller('AboutBbbeeCtrl', {
+    AboutMainCtrl = $controller('AboutMainCtrl', {
       $scope: scope
     });
   }));
