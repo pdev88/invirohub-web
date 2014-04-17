@@ -3,7 +3,7 @@
 describe('Controller: ServicesProfilingCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('routecontentApp'));
+  beforeEach(module('invirohubWebApp'));
 
   var ServicesProfilingCtrl,
     scope;

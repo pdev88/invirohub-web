@@ -1,0 +1,35 @@
+<div class="row">
+    <div class="col-md-3">
+
+        <ul>
+            <li>
+                <a ui-sref="products.single">Single Phase Meters</a>
+            </li>
+            <li>
+                <a ui-sref="products.three">Three Phase Meters</a>
+            </li>
+            <li>
+                <a ui-sref="products.concentrator">Concentrator</a>
+            </li>
+            <li>
+                <a ui-sref="products.appliance">Appliance Control device</a>
+            </li>
+            <li>
+                <a ui-sref="products.display">Display Customer Interface Unit</a>
+            </li>
+            <li>
+                <a ui-sref="products.circuit">Circuit & Appliance Monitoring</a>
+            </li>
+            <li>
+                <a ui-sref="products.water">Water Pulse units</a>
+            </li>
+
+        </ul>
+
+
+    </div>
+    <div class="col-md-9">
+        <div ui-view="products-content" ng-animate="{enter : 'fade-enter'}"></div>
+    </div>
+</div>
+

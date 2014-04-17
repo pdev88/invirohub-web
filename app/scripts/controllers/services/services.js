@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('routecontentApp')
+angular.module('invirohubWebApp')
   .controller('ServicesServicesCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',

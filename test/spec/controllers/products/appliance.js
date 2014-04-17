@@ -3,7 +3,7 @@
 describe('Controller: ProductsApplianceCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('routecontentApp'));
+  beforeEach(module('invirohubWebApp'));
 
   var ProductsApplianceCtrl,
     scope;

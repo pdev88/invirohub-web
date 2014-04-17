@@ -3,7 +3,7 @@
 describe('Controller: AboutBbbeeCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('routecontentApp'));
+  beforeEach(module('invirohubWebApp'));
 
   var AboutBbbeeCtrl,
     scope;
