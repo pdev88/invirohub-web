@@ -1,24 +1,37 @@
 <div class="row">
-    <div class="col-md-3">
 
-        <ul>
-            <li>
-                <a ui-sref="tools.distributor">Become A Distributor</a>
-            </li>
-            <li>
-                <a ui-sref="tools.downloads">Downloads</a>
-            </li>
-            <li>
-                <a ui-sref="tools.concentrator">Concentrator</a>
-            </li>
+    <div class="col-md-2 col-lg-2  col-xl-2">
+        <div class="sidebar-nav">
+            <div class="navbar navbar-default" role="navigation">
+                <div class="nav-title"><h4>Offered</h4></div>
+                <ul class="nav">
+
+                    <li><a ui-sref="services.ami"><i class="fa fa-1x  fa-cloud-download"></i> Downloads<i class="fa fa-1x fa-chevron-right
+ "></i></a>
+                    </li>
+
+                    <li><a ui-sref="services.vending"><i class="fa fa-1x  fa-laptop"></i>Software / Dashboard<i
+                            class="fa fa-1x fa-chevron-right
+ "></i></a></li>
 
 
-        </ul>
+                    <li><a ui-sref="services.profiling"><i class="fa fa-1x  fa-sitemap"></i> Become Agent<i
+                            class="fa fa-1x fa-chevron-right
+ "></i></a>
+                    </li>
 
 
+
+
+                </ul>
+
+
+            </div>
+        </div>
     </div>
-    <div class="col-md-9">
+
+    <div class="col-md-9 col-lg-9  col-xl-9">
         <div ui-view="tools-content" ng-animate="{enter : 'fade-enter'}"></div>
     </div>
-</div>
 
+</div>

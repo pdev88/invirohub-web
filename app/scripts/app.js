@@ -19,6 +19,24 @@ appModule
 
         $stateProvider
 
+            .state('main', {
+                url : '/',
+                views : {
+                    'main-content' : {
+                        templateUrl : 'views/main.html',
+                        controller : 'MainCtrl'
+                    },
+                    'header': {
+                        templateUrl: 'views/header.html',
+                        controller: 'HeaderCtrl'
+                    },
+                    'footer': {
+                        templateUrl: 'views/footer.html',
+                        controller: 'FooterCtrl'
+                    }
+                }
+            })
+
             .state('about', {
                 url: '/about',
                 views: {

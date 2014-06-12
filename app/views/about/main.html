@@ -1,29 +1,51 @@
 <div class="row">
-    <div class="col-md-3">
 
-        <ul>
-            <li>
-                <a ui-sref="about.directors">Board Of Directors</a>
-            </li>
-            <li>
-                <a ui-sref="about.what">What We Do</a>
-            </li>
-            <li>
-                <a ui-sref="about.operating">Operating Partners</a>
-            </li>
-            <li>
-                <a ui-sref="about.bbbee">BBBEEE</a>
-            </li>
-            <li>
-                <a ui-sref="about.socio">Socio-Economic Development</a>
-            </li>
+    <div class="col-md-2 col-lg-2  col-xl-2">
+        <div class="sidebar-nav">
+            <div class="navbar navbar-default" role="navigation">
 
-        </ul>
+                <div class="nav-title"><h5>Profile</h5><div class="col-sm-4"> </div></div>
+
+                <ul class="nav">
+
+                    <li><a ui-sref="about.about"><i class="fa fa-1x   fa-group "></i> About Us<i class="fa fa-1x   fa-chevron-right
+ "></i></a>
+                    </li>
+                    <li><a ui-sref="about.directors"><i class="fa fa-1x  fa-user"></i> Board Of Directors<i class="fa fa-1x   fa-chevron-right
+ "></i></a></li>
+
+                    <li><a ui-sref="about.what"><i class="fa fa-1x  fa-wrench"></i> What We Do<i class="fa fa-1x   fa-chevron-right
+ "></i></a>
+                    </li>
+                    <li class="nav-divider"></li>
+                    <div class="nav-title"><h4>Operations</h4></div>
 
 
+
+                    <li><a ui-sref="about.operating"><i class="fa fa-1x fa-puzzle-piece"></i> Operating Partners<i class="fa fa-1x   fa-chevron-right
+ "></i></a>
+                    </li>
+                    <li class="nav-divider"></li>
+                    <div class="nav-title"><h4>Social Development</h4></div>
+                    <li><a ui-sref="about.bbbee"><i class="fa fa-1x fa-legal"></i> BBBEE<i class="fa fa-1x   fa-chevron-right
+ "></i></i>
+
+                        <li><a ui-sref="about.socio"><i class="fa fa-1x fa-eye"></i> Social Development<i class="fa fa-1x   fa-chevron-right
+ "></i></a></li>
+
+
+
+
+                </ul>
+
+
+            </div>
+            <div><button type="button" class="btn btn-primary btn-lg btn-block">Subscribe</button></div>
+        </div>
     </div>
-    <div class="col-md-9">
+
+    <div class="col-md-9 col-lg-9  col-xl-9">
         <div ui-view="about-content" ng-animate="{enter : 'fade-enter'}"></div>
     </div>
-</div>
 
+</div>
