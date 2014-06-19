@@ -1,52 +1,102 @@
 <div class="container">
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-4 well well-sm">
-            <legend><a href="http://www.jquery2dotnet.com"><i class="glyphicon glyphicon-globe"></i></a> Sign up!</legend>
-            <form action="#" method="post" class="form" role="form">
-                <div class="row">
-                    <div class="col-xs-6 col-md-6">
-                        <input class="form-control" name="firstname" placeholder="First Name" type="text"
-                               required autofocus />
-                    </div>
-                    <div class="col-xs-6 col-md-6">
-                        <input class="form-control" name="lastname" placeholder="Last Name" type="text" required />
-                    </div>
+    <form class="form-horizontal">
+        <fieldset>
+
+            <!-- Form Name -->
+             <h3><i class="fa fa-sitemap"></i> Distributor / Agent</h3>
+<hr>
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="textinput">Name</label>
+                <div class="col-md-5">
+                    <input id="textinput" name="textinput" type="text" placeholder=" " class="form-control input-md">
+
                 </div>
-                <input class="form-control" name="youremail" placeholder="Your Email" type="email" />
-                <input class="form-control" name="reenteremail" placeholder="Re-enter Email" type="email" />
-                <input class="form-control" name="password" placeholder="New Password" type="password" />
-                <label for="">
-                    Birth Date</label>
-                <div class="row">
-                    <div class="col-xs-4 col-md-4">
-                        <select class="form-control">
-                            <option value="Month">Month</option>
-                        </select>
-                    </div>
-                    <div class="col-xs-4 col-md-4">
-                        <select class="form-control">
-                            <option value="Day">Day</option>
-                        </select>
-                    </div>
-                    <div class="col-xs-4 col-md-4">
-                        <select class="form-control">
-                            <option value="Year">Year</option>
-                        </select>
-                    </div>
+            </div>
+            <hr>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="textinput">Surname</label>
+                <div class="col-md-5">
+                    <input id="textinput" name="textinput" type="text" placeholder="placeholder" class="form-control input-md">
+
                 </div>
-                <label class="radio-inline">
-                    <input type="radio" name="sex" id="inlineCheckbox1" value="male" />
-                    Male
-                </label>
-                <label class="radio-inline">
-                    <input type="radio" name="sex" id="inlineCheckbox2" value="female" />
-                    Female
-                </label>
-                <br />
-                <br />
-                <button class="btn btn-lg btn-primary btn-block" type="submit">
-                    Sign up</button>
-            </form>
-        </div>
-    </div>
+            </div>
+
+            <hr>
+
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="textinput">Email</label>
+                <div class="col-md-5">
+                    <input id="textinput" name="textinput" type="text" placeholder="placeholder" class="form-control input-md">
+
+                </div>
+            </div>
+<hr>
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="textinput">Name of Business</label>
+                <div class="col-md-5">
+                    <input id="textinput" name="textinput" type="text" placeholder="placeholder" class="form-control input-md">
+
+                </div>
+            </div>
+<hr>
+            <!-- Text input-->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="textinput">Nature of Business</label>
+                <div class="col-md-5">
+                    <input id="textinput" name="textinput" type="text" placeholder="placeholder" class="form-control input-md">
+
+                </div>
+            </div>
+<hr>
+            <!-- Select Basic -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="selectbasic">Province</label>
+                <div class="col-md-5">
+                    <select id="selectbasic" name="selectbasic" class="form-control">
+                        <option value="1">Province</option>
+                        <option value="2">Eastern Cape</option>
+                        <option value="">Free State</option>
+                        <option value="">Gauteng</option>
+                        <option value="">KwaZulu-Natal</option>
+                        <option value="">Limpopo</option>
+                        <option value="">Mpumalanga</option>
+                        <option value="">Northern Cape</option>
+                        <option value="">North West</option>
+                        <option value="">Western Cape</option>
+                    </select>
+                </div>
+            </div>
+<hr>
+            <!-- Select Basic -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="selectbasic">Type of Business</label>
+                <div class="col-md-5">
+                    <select id="selectbasic" name="selectbasic" class="form-control">
+                        <option value="1">Type</option>
+                        <option value="2">Sole Proprietor</option>
+                        <option value="">Partnership</option>
+                        <option value="">Trust</option>
+                        <option value="">CC</option>
+                        <option value="">(Pty) Ltd</option>
+                        <option value="">Ltd</option>
+                    </select>
+                </div>
+            </div>
+<hr>
+            <!-- Button -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="singlebutton"> </label>
+                <div class="col-md-4">
+                    <button id="singlebutton" name="singlebutton" class="btn btn-success">Submit</button>
+                </div>
+            </div>
+
+        </fieldset>
+    </form>
+
 </div>

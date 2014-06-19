@@ -402,7 +402,15 @@ appModule
                 }
             })
 
-
+            .state('tools.software', {
+                url: '/software',
+                views: {
+                    'tools-content': {
+                        templateUrl: 'views/tools/software.html',
+                        controller: 'ToolsSoftwareCtrl'
+                    }
+                }
+            })
 
         ;
     });
