@@ -1,0 +1,9 @@
+.widewrapper {
+    width:103%;
+}
+
+.widewrapper > img {
+    width:103%;
+    margin-left: -15px;
+    margin-top: -10px;
+}
