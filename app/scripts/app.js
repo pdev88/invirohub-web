@@ -25,14 +25,6 @@ appModule
                     'main-content' : {
                         templateUrl : 'views/main.html',
                         controller : 'MainCtrl'
-                    },
-                    'header': {
-                        templateUrl: 'views/header.html',
-                        controller: 'HeaderCtrl'
-                    },
-                    'footer': {
-                        templateUrl: 'views/footer.html',
-                        controller: 'FooterCtrl'
                     }
                 }
             })
@@ -43,14 +35,6 @@ appModule
                     'main-content': {
                         templateUrl: 'views/about/main.html',
                         'controller': 'AboutMainCtrl'
-                    },
-                    'header': {
-                        templateUrl: 'views/header.html',
-                        controller: 'HeaderCtrl'
-                    },
-                    'footer': {
-                        templateUrl: 'views/footer.html',
-                        controller: 'FooterCtrl'
                     }
 
                 }
@@ -117,16 +101,7 @@ appModule
                     'main-content': {
                         templateUrl: 'views/services/main.html',
                         'controller': 'ServicesMainCtrl'
-                    },
-                    'header': {
-                        templateUrl: 'views/header.html',
-                        controller: 'HeaderCtrl'
-                    },
-                    'footer': {
-                        templateUrl: 'views/footer.html',
-                        controller: 'FooterCtrl'
                     }
-
                 }
             })
 
@@ -229,16 +204,7 @@ appModule
                     'main-content': {
                         templateUrl: 'views/products/main.html',
                         'controller': 'ProductsMainCtrl'
-                    },
-                    'header': {
-                        templateUrl: 'views/header.html',
-                        controller: 'HeaderCtrl'
-                    },
-                    'footer': {
-                        templateUrl: 'views/footer.html',
-                        controller: 'FooterCtrl'
                     }
-
                 }
             })
 
@@ -334,16 +300,7 @@ appModule
                     'main-content': {
                         templateUrl: 'views/tools/main.html',
                         'controller': 'ToolsMainCtrl'
-                    },
-                    'header': {
-                        templateUrl: 'views/header.html',
-                        controller: 'HeaderCtrl'
-                    },
-                    'footer': {
-                        templateUrl: 'views/footer.html',
-                        controller: 'FooterCtrl'
                     }
-
                 }
             })
 
@@ -380,16 +337,7 @@ appModule
                     'main-content': {
                         templateUrl: 'views/contact/contact.html',
                         'controller': 'ContactContactCtrl'
-                    },
-                    'header': {
-                        templateUrl: 'views/header.html',
-                        controller: 'HeaderCtrl'
-                    },
-                    'footer': {
-                        templateUrl: 'views/footer.html',
-                        controller: 'FooterCtrl'
                     }
-
                 }
             })
             .state('contact.contact', {
