@@ -3676,6 +3676,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     max-height: 340px;
     margin-top: 15px;
     margin-left: 15px;
+    opacity: 2;
     overflow-x: visible;
     padding-right: 15px;
     padding-left: 15px;
@@ -3994,14 +3995,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     background-color: transparent;
 }
 .navbar-default .navbar-toggle {
-    border-color: #dddddd;
+    border-color: #2f2c2c;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
     background-color: #dddddd;
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #888888;
+    background-color: #73bf45;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {

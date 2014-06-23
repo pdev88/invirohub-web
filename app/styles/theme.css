@@ -614,3 +614,13 @@ ul.time-post li.time{
     background:#fff;
     padding:0 12px;
 }
+
+
+
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        margin-left: 20%;
+        margin-bottom: 5%;
+    }
+}
