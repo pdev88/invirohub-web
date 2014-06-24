@@ -10,11 +10,12 @@ body {
 }
 #footer {
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     width: 100%;
     /* Set the fixed height of the footer here */
     height: 305px;
     background-color: #333333;
+    clear: both;
 
 }
 
@@ -37,4 +38,23 @@ body > .container {
 
 code {
     font-size: 80%;
+}
+
+*{
+    margin: 0;
+}
+
+.wrapper{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -0em;
+}
+
+.footer, .push{
+    height: 2em;
+}
+
+.footer, .push{
+    clear: both;
 }
