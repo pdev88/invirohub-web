@@ -1,10 +1,23 @@
 'use strict';
 
 angular.module('invirohubWebApp')
-  .controller('ToolsDistributorCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+    .controller('ToolsDistributorCtrl', function ($scope) {
+        var model = $scope.viewModel = {
+            business_type  : 'sole_proprietor',
+            business_name  : '',
+            business_nature: '',
+            first_name     : '',
+            last_name      : '',
+            email          : '',
+            province       : 'gauteng'
+        };
+
+        $scope.init = function () {
+
+        };
+
+        $scope.postForm = function () {
+
+        };
+
+    });
