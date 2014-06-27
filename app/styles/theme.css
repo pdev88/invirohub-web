@@ -165,8 +165,6 @@ h4 {
 
 .custom-footer {
     background: #333;
-
-
     color: #f6f6f6;
 }
 
@@ -449,6 +447,7 @@ ul.social-network li {
 
 .copyright {
     text-align:left;
+    margin-left: 50px;
     font-size:12px;
 }
 

@@ -12,3 +12,12 @@
     margin-left: 20px;
     margin-right: 20px;
 }
+
+/* this is to override the fontawesome fonts */
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../styles/fonts/FontAwesome-webfont.eot?v=4.0.3');
+    src: url('../styles/fonts/FontAwesome-webfont.eot?#iefix&v=4.0.3') format('embedded-opentype'), url('../styles/fonts/FontAwesome-webfont.woff?v=4.0.3') format('woff'), url('../styles/fonts/FontAwesome-webfont.ttf?v=4.0.3') format('truetype'), url('../styles/fonts/FontAwesome-webfont.svg?v=4.0.3#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
