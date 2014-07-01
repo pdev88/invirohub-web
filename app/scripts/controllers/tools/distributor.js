@@ -17,7 +17,21 @@ angular.module('invirohubWebApp')
         };
 
         $scope.postForm = function () {
+            apiService.post('http://invirohub-admin-api.invirohub.com/api/contact_form', model, function (err, result) {
+                if (err) {
+                    alert('There was an error processing the form');
+                } else {
 
+                    model.business_name = '';
+                    model.business_nature = '';
+                    model.first_name = '';
+                    model.last_name = '';
+                    model.email = '';
+
+                    alert('Your message has been sent. Thank you.');
+
+                }
+            });
         };
 
     });
