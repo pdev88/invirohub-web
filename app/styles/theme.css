@@ -411,7 +411,7 @@ footer h1, footer h2, footer h3, footer h4, footer h5, footer h6{
 }
 
 footer address {
-    line-height:1.6em;
+    line-height:1.4em;
 }
 
 footer h5 a:hover, footer a:hover {
@@ -432,8 +432,8 @@ ul.social-network li {
     text-shadow:none;
     color:#f5f5f5;
     padding:0;
-    padding-top:30px;
-    margin:20px 0 0 0;
+    padding-top:10px;
+    margin:10px 0 0 0;
 }
 
 #sub-footer p{
