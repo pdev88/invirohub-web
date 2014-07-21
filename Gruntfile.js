@@ -284,8 +284,8 @@ module.exports = function (grunt) {
                     {
                         expand: true,
                         dot   : true,
-                        cwd   : '<%= yeoman.app %>/images/pdf',
-                        dest  : '<%= yeoman.dist %>/images/pdf',
+                        cwd   : '<%= yeoman.app %>/pdf',
+                        dest  : '<%= yeoman.dist %>/pdf',
                         src   : [
                             '*.pdf'
                         ]
