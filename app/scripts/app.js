@@ -350,12 +350,12 @@ appModule
                 }
             })
 
-            .state('tools.software', {
+            .state('products.software', {
                 url: '/software',
                 views: {
-                    'tools-content': {
-                        templateUrl: 'views/tools/software.html',
-                        controller: 'ToolsSoftwareCtrl'
+                    'products-content': {
+                        templateUrl: 'views/products/software.html',
+                        controller: 'ProductsSoftwareCtrl'
                     }
                 }
             })
